@@ -43,6 +43,7 @@ onUnmounted(() => window.removeEventListener('keydown', handleEscape))
 
       <ul id="navigation-links" class="navigation__links" :class="{ 'navigation__links--open': isOpen }">
         <li><a href="#start" @click="closeMenu">Home</a></li>
+        <li><a href="#about" @click="closeMenu">Über mich</a></li>
         <li>
           <a href="https://github.com/lukadobro" target="_blank" rel="noopener noreferrer" @click="closeMenu">
             <svg class="navigation__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
