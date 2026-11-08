@@ -19,6 +19,7 @@ body {
 }
 
 .hero {
+  scroll-margin-top: 6rem;
   display: grid;
   align-items: center;
   min-height: 100vh;

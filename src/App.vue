@@ -1,5 +1,10 @@
+<script setup>
+import AppNavigation from './components/AppNavigation.vue'
+</script>
+
 <template>
-  <main class="hero" aria-labelledby="hero-title">
+  <AppNavigation />
+  <main id="start" class="hero" aria-labelledby="hero-title">
     <div class="hero__content">
       <p class="hero__eyebrow">Persönliches Entwickler-Portfolio</p>
       <h1 id="hero-title">Luka <span>Dobrosavljevic</span></h1>
